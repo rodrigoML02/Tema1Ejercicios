@@ -130,7 +130,7 @@ public class Utilidades {
             if(DetectorDePrimos(numero)==false){
                 System.out.print(numero+"= ");
                 while(numero!=1){
-                    for (int i=1;i<=15;i++){
+                    for (int i=1;i<=1000;i++){
                          if(DetectorDePrimos(i)==true & numero%i==0){
                              numero=numero/i;
                              System.out.print(i+"*");
